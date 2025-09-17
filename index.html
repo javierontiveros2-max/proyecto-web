@@ -1,25 +1,56 @@
 <!DOCTYPE html>
+<!--
+  Este documento HTML es la estructura principal de tu proyecto web.
+  A continuación se explican las partes más importantes y se sugieren mejoras.
+-->
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
+		<!--
+		  La meta viewport permite que el sitio sea responsive, adaptándose a dispositivos móviles.
+		  SUGERENCIA: Puedes añadir más meta tags para SEO y accesibilidad.
+		-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>My Web Project - WEB ATELIER (UDIT)</title>
+		<!--
+		  El título aparece en la pestaña del navegador y es importante para la identificación del sitio.
+		-->
 		<meta name="description" content="A student web project for WEB ATELIER (UDIT) course" />
+		<!--
+		  La descripción ayuda a los motores de búsqueda y mejora la accesibilidad.
+		-->
 		<link rel="stylesheet" href="assets/css/style.css" />
+		<!--
+		  Aquí se enlaza la hoja de estilos principal. SUGERENCIA: Puedes añadir un favicon para personalizar la pestaña del navegador.
+		-->
 	</head>
 	<body>
+		<!--
+		  El enlace "skip-link" mejora la accesibilidad permitiendo saltar directamente al contenido principal.
+		-->
 		<a href="#main" class="skip-link">Skip to main content</a>
 
 		<header>
 			<div class="container">
-				<h1>My Web Project</h1>
+				<h1>My Web Proyecto</h1>
+				<!--
+				  El encabezado principal (h1) es fundamental para la estructura semántica y SEO.
+				  SUGERENCIA: Usa un subtítulo (h2) si tienes más secciones importantes.
+				-->
 				<p>Student Project - WEB ATELIER (UDIT)</p>
 			</div>
 		</header>
 
 		<main id="main" class="container">
+			<!--
+			  La etiqueta <main> contiene el contenido principal del sitio.
+			  SUGERENCIA: Divide el contenido en más secciones si el proyecto crece.
+			-->
 			<section>
 				<h2>Welcome</h2>
+				<!--
+				  Los encabezados secundarios (h2, h3) ayudan a organizar el contenido y mejoran la accesibilidad.
+				-->
 				<p>
 					This is the starting point for my web project. I will build this incrementally, committing progress after each
 					class.
@@ -32,6 +63,9 @@
 					<li>Implement modern CSS techniques</li>
 					<li>Follow web accessibility guidelines</li>
 				</ul>
+				<!--
+				  SUGERENCIA: Puedes añadir más objetivos o logros conforme avances.
+				-->
 			</section>
 
 			<section>
@@ -41,11 +75,18 @@
 					<a href="https://github.com/[username]/[project-repo]/commits/main">commit history</a>
 					to see weekly progress.
 				</p>
+				<!--
+				  SUGERENCIA: Puedes mostrar un resumen visual del progreso usando tablas o gráficos.
+				-->
 			</section>
 		</main>
 
 		<footer>
 			<div class="container">
+				<!--
+				  El pie de página contiene información de autoría y enlaces útiles.
+				  SUGERENCIA: Añade enlaces a redes sociales o contacto si lo deseas.
+				-->
 				<p>© 2025 [Your Name] — WEB ATELIER (UDIT) · Web Design (2025 Fall).</p>
 				<p>
 					<a href="https://github.com/ruvebal/web-atelier-udit">Course Framework</a>
@@ -55,6 +96,9 @@
 			</div>
 		</footer>
 
-		<script src="assets/js/main.js"></script>
+		<script src="./assets/js/main.js"></script>
+		<!--
+		  Aquí se enlaza el archivo JavaScript principal. SUGERENCIA: Añade scripts al final para mejorar el rendimiento.
+		-->
 	</body>
 </html>
