@@ -1,4 +1,4 @@
-# WEB ATELIER (UDIT) – Plantilla de Proyecto Estudiantil
+# MI PROYECTO WEB – Plantilla de Proyecto Estudiantil
 
 Este repositorio es el **punto de partida para el proyecto personal de cada estudiante** dentro del marco WEB ATELIER (UDIT). Mientras que `web-foundations` proporciona las lecciones canónicas y `professor-course-template` organiza la instancia del curso, la **Plantilla de Proyecto Estudiantil** es donde cada estudiante diseña y desarrolla su propio sitio web. Cada semana, los estudiantes realizan commits aquí — _un estudiante · un repo · un proyecto · un commit por clase_.
 
