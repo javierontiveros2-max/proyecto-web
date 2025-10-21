@@ -30,7 +30,7 @@ h5,
 h6 {
 	font-weight: 600;
 	line-height: 1.3;
-	margin: 0 0 1rem 0;
+	margin: 0 0 1rem 1rem;
 }
 
 h1 {
@@ -45,7 +45,9 @@ h3 {
 
 p,
 li {
+	margin-top: 1rem;
 	margin-bottom: 1rem;
+	margin-left: 1rem;
 }
 
 /* Layout */
@@ -152,4 +154,52 @@ select:focus {
   font-family: "BBH Sans Bogle", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* para divisiones   */
+.analysis-text {
+	color:#ccc;
+	columns: 1;
+	column-gap: 2rem;
+}
+@media (min-width: 800px) {
+	.analysis-text {
+		columns: 2;
+	}
+}
+
+/* para titulo animado  */
+.cover {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+.title {
+	font-size: 3rem;
+	text-transform: uppercase;
+	opacity: 0;
+	animation: fadeIn 3s forwards ease-in;	
+}
+@keyframes fadeIn {
+	to {
+	opacity: 1;
+	}
+}
+
+/* para imagenes  */
+.screenshots {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 1rem;
+}
+.screenshots img {
+	margin-top: 1rem;
+	width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+.conclusion {
+	font-size: 1rem;
+    color: #ccc;
 }
