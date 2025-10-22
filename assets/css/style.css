@@ -173,7 +173,7 @@ select:focus {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 20vh;
+	height: 100vh;
 }
 .title {
 	font-size: 3rem;
